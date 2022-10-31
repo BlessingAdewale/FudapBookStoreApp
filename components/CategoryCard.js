@@ -10,7 +10,7 @@ const CategoryCard = ({ containerStyle, categoryItem, onPress }) => {
 
         {/* Book Cover */}
         <Image
-          source={categoryItem?.imgUrl}
+          source={categoryItem?.img}
           resizeMode="cover"
           style={{ width: 100, height: 150, borderRadius: 10 }}
         />
