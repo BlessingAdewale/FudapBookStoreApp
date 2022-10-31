@@ -40,6 +40,8 @@ const Home = ({ navigation }) => {
           <FlatList
             data={data}
             keyExtractor={({ id }, index) => id}
+            keyboardDismissMode="on-drag"
+            showsVerticalScrollIndicator={false}
             // ListHeaderComponent={
             //   <View>
             //     {/* Header Section */}
