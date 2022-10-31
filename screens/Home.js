@@ -62,7 +62,7 @@ const Home = ({ navigation }) => {
                 }}
               ></View>
             }
-            renderItem={({ item }) => (
+            renderItem={({item}) => (
                 <CategoryCard
                   containerStyle={{ marginHorizontal: SIZES.padding }}
                   categoryItem={item}
