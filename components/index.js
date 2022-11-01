@@ -1,3 +1,4 @@
 import CategoryCard from "./CategoryCard";
-
-export { CategoryCard };
+import MyBookCard from "./MyBookCard";
+import LoadingIndicator from "./LoadingIndicator";
+export { CategoryCard, MyBookCard, LoadingIndicator };

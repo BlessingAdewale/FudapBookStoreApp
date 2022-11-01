@@ -1,23 +1,18 @@
 import React from 'react';
 import { createStackNavigator } from "@react-navigation/stack";
-import { NavigationContainer, DefaultTheme } from '@react-navigation/native';
+import { NavigationContainer } from '@react-navigation/native';
 
 import { BookDetail } from "./screens/";
 import Tabs from "./navigation/tabs";
 
-const theme = {
-    ...DefaultTheme,
-    colors: {
-        ...DefaultTheme.colors,
-        border: "transparent"
-    }
-}
+
+
 
 const Stack = createStackNavigator();
 
 const App = () => {
     return (
-        <NavigationContainer theme={theme}>
+        <NavigationContainer>
             <Stack.Navigator
                 screenOptions={{
                     headerShown: false
